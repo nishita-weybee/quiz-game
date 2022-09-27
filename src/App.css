@@ -1,5 +1,6 @@
 :root {
-  --bgcolor: #12172f;
+  /* --bgcolor: #12172f; */
+  --bgcolor: black;
   --hover: pink;
   --btn: #06d3f6;
 }
@@ -52,14 +53,14 @@ h1 {
   background-color: var(--hover);
   margin: 10px;
   padding: 10px;
-  /* padding: 3% 2%; */
+
   color: white;
   width: 150px;
   border-radius: 20px;
 }
 
 .next-prev {
-  background-color:#da3768;
+  background-color: #da3768;
   margin: 10px;
   border-radius: 20px;
   color: white;
@@ -74,7 +75,7 @@ h1 {
 }
 
 .next-prev:hover {
-  background-color:pink;
+  background-color: pink;
   color: white;
 }
 
@@ -91,7 +92,7 @@ h1 {
   margin-top: 5%;
   margin-bottom: 3%;
   font-size: 25px;
-} /*# sourceMappingURL=styles.css.map */
+}
 
 .active {
   border: 1px solid var(--hover);
@@ -137,7 +138,6 @@ h1 {
   border-radius: 10px;
   padding: 20px 0;
   color: #12172f;
-  
 }
 
 .RM-heading {
@@ -157,7 +157,6 @@ h1 {
 
 h2 {
   margin: 10px;
-  /* color: #da3768; */
 }
 
 .btn-reset {
@@ -178,21 +177,13 @@ h2 {
   color: white;
 }
 
-.finish {
-  display: none;
-}
-
-.quiz-box {
-  display: none;
-}
-
 .preload {
   margin: auto;
 }
 
 img {
-  width: 20%;
-  margin: 0 40%;
+  width: 50%;
+  margin: 0 25%;
 }
 
 @media screen and (max-width: 1000px) {

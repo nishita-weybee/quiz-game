@@ -2,19 +2,13 @@ import React from "react";
 import SpinWheel from "./SpinWheel";
 import { useNavigate } from "react-router-dom";
 
-function Home(props) {
+function Home() {
   const navigate = useNavigate();
-  const { selectedItem, selectItem, arr } = props;
 
   return (
     <div className="home">
       <h1 className="home-heading">Spin the Wheel</h1>
-      <SpinWheel
-        items={arr}
-        selectedItem={selectedItem}
-        selectItem={selectItem}
-      />
-
+      <SpinWheel />
       <button
         className="start"
         onClick={() => {

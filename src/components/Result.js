@@ -4,6 +4,7 @@ import { UserContext } from "../App";
 
 function Result() {
   const navigate = useNavigate();
+
   const { result } = useContext(UserContext);
   return (
     <>
